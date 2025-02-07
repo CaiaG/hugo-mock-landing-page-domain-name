@@ -18,14 +18,14 @@ Open-source MIT Licensed Hugo Theme, using Bootstrap 5.
 
 - 🛡️ Security aware
 
-  Get A+ scores on Mozilla Observatory out of the box. Easily change the default Security Headers to suit your needs.
+  As a journalist, I want to detect bias in sources so that I can write balanced articles.
 
 - ⚡ Fast by default
 
-  Get 100 scores on Google Lighthouse by default. Hugo Bootstrap Theme removes unused css, prefetches links, and lazy loads images.
+  As an academic, I want to compare multiple sources easily so that I can evaluate different perspectives on a topic.
 
 - 📈 SEO-ready
 
-  Use sensible defaults for structured data, open graph, and Twitter cards. Or easily change the Search Engine Optimization settings to your liking.
+  As a student, I want to filter out uncredible sources so that my research remains reliable and valuable.
 
 Check the [GitHub repository](https://github.com/filipecarneiro/hugo-bootstrap-theme) for the release notes.

@@ -1,10 +1,9 @@
-baseURL = 'https://filipecarneiro.github.io/hugo-bootstrap-theme/'
-title = "Hugo Bootstrap Theme"
-author = "Filipe Carneiro"
-copyright = "Open-source <a class=\"text-muted text-decoration-none\" href=\"https://github.com/filipecarneiro/hugo-bootstrap-theme/blob/main/LICENSE\">MIT</a> Licensed."
+baseURL = 'https://<CaiaG>.github.io/hugo-mock-landing-page/'
+title = "The Thinkerr"
+author = "Caia Gelli"
+copyright = "caiag"
 
 timeZone = 'Europe/London'
-
 # Multilingual
 defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = false
