@@ -9793,6 +9793,8 @@ a .feather-github:hover {
   --bd-violet-rgb: 248, 64, 131;
   --bd-accent-rgb: 56,74,115;
   --bd-pink-rgb: 214,51,132;
+  --bs-body-bg: #A4CEC6;
+  --bs-body-bg-rgb: 164, 206, 198;
 }
 
 .home .bd-masthead {

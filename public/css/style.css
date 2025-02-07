@@ -74,8 +74,8 @@
   --bs-body-line-height: 1.5;
   --bs-body-color: #212529;
   --bs-body-color-rgb: 33, 37, 41;
-  --bs-body-bg: #A4CEC6;
-  --bs-body-bg-rgb: 164, 206, 198;
+  --bs-body-bg: #fff;
+  --bs-body-bg-rgb: 255, 255, 255;
   --bs-emphasis-color: #000;
   --bs-emphasis-color-rgb: 0, 0, 0;
   --bs-secondary-color: rgba(33, 37, 41, 0.75);
@@ -9793,6 +9793,8 @@ a .feather-github:hover {
   --bd-violet-rgb: 248, 64, 131;
   --bd-accent-rgb: 56,74,115;
   --bd-pink-rgb: 214,51,132;
+  --bs-body-bg: #A4CEC6;
+  --bs-body-bg-rgb: 164, 206, 198;
 }
 
 .home .bd-masthead {
