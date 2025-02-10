@@ -55,6 +55,10 @@ if git clone --branch $BRANCH "https://github.com/$REPO.git" "$TMP_REPO_DIR"; th
     echo "Cloned existing gh-pages branch."
 else
     echo "gh-pages branch does not exist, creating..."
+    echo "FOLDER: $FOLDER"
+    echo "REPO: $REPO"
+    echo "BRANCH: $BRANCH"
+    echo "TMP_REPO_DIR: $TMP_REPO_DIR"
     mkdir -p "$TMP_REPO_DIR"
     cd "$TMP_REPO_DIR" || exit
     git init
@@ -63,8 +67,10 @@ fi
 
 # Syncing the gh-pages branch with the folder content
 rsync -av --delete --exclude '.git' "$FOLDER/" "$TMP_REPO_DIR/"
+echo "made it here 1"
 
 cd "$TMP_REPO_DIR" || exit
+echo "made it here 2"
 
 # Check if there are any changes. If so, commit and push them.
 if [ -n "$(git status --porcelain)" ]; then

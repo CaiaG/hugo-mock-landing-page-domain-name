@@ -31,18 +31,3 @@ As a researcher, I want structured argument builders so that I can create well-s
 As a writer, I want to explore multiple perspectives on a topic so that I can craft well-rounded essays.
 
 As a writer, I want a quick reference guide so that I can cite sources correctly in my work.
-
-top 6:
-
-(3) As a student, I want to filter out uncredible sources so that my research remains reliable and valuable.
-
-As a student, I want to generate citations automatically so that I don’t have to format them manually.
-
-As an academic, I want to stay updated with the latest research so that I can reference recent findings in my work.
-
-(2) As an academic, I want to compare multiple sources easily so that I can evaluate different perspectives on a topic.
-
-(1) As a journalist, I want to detect bias in sources so that I can write balanced articles.
-
-As a student, I want a tool that summarizes key arguments so that I can understand complex topics faster.
-
