@@ -29,6 +29,9 @@ FOLDER=$(realpath "$1")  # Ensure we have the absolute path of the folder
 REPO=$2
 BRANCH="gh-pages"
 TMP_REPO_DIR=$(mktemp -d)
+# TMP_REPO_DIR=$(mktemp -d)
+TMP_REPO_DIR_WIN=$(cd "$TMP_REPO_DIR" && pwd -W) 
+echo "$TMP_REPO_DIR_WIN"
 
 # Check $FOLDER exists and is not empty before proceeding
 if [ ! -d "$FOLDER" ] || [ -z "$(ls -A "$FOLDER")" ]; then
@@ -66,12 +69,14 @@ else
 fi
 
 # Syncing the gh-pages branch with the folder content
-rsync -av --delete --exclude '.git' "$FOLDER/" "$TMP_REPO_DIR/"
+rsync -av --exclude '.git' "$FOLDER/" "$TMP_REPO_DIR/"
+ls -la "$TMP_REPO_DIR"
 echo "made it here 1"
 
 cd "$TMP_REPO_DIR" || exit
 echo "made it here 2"
 
+echo "$(git status --porcelain)"
 # Check if there are any changes. If so, commit and push them.
 if [ -n "$(git status --porcelain)" ]; then
     git add .
