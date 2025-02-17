@@ -1,4 +1,4 @@
-baseURL = 'https://caiag.github.io/hugo-mock-landing-page/'
+baseURL = 'https://caiag.github.io/hugo-mock-landing-page-autodeployed/'
 title = "The Thinkerr"
 author = "Caia Gelli"
 copyright = "caiag"
